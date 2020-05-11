@@ -1,0 +1,5 @@
+<div class="checkbox" [class.enabled]="selected"> 
+    <span></span>
+    <label [for]="type">{{ type | translate}}</label>
+    <input type="checkbox" [id]="type" [name]="type" (click)="activateCheckBox()">
+</div>

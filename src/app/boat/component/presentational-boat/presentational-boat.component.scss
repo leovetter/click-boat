@@ -1,0 +1,29 @@
+.content {
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    display: inline-block;
+    vertical-align: top;
+    p {
+        margin: 0;
+    }
+    .step {
+        font-size: smaller;
+    }
+    .your-setting {
+        font-weight: bold;
+        font-size: larger;
+    }
+    .checkbox-container {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .validate-button {
+        float: right;
+    }
+}
+.img-boat {
+    width: 50%;
+    height: 100%;
+}

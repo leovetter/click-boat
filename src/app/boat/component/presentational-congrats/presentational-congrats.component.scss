@@ -1,0 +1,25 @@
+.content {
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    display: inline-block;
+    vertical-align: top;
+    p {
+        margin: 0;
+    }
+    .step {
+        font-size: smaller;
+    }
+    .your-summary {
+        font-weight: bold;
+        font-size: larger;
+    }
+    .validate-button {
+        float: right;
+    }
+}
+.img-congrats {
+    width: 50%;
+    height: 100%;
+}

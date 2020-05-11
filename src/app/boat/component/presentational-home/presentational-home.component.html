@@ -1,0 +1,44 @@
+<div class="content" [formGroup]="searchGroup">
+    <p class="location">{{ 'location' | translate }}</p>
+    <p class="clickboat">{{ 'clickBoat' | translate }}</p>
+    <app-search-field (setInput)="setInput($event)"></app-search-field>
+    <table class="boats-table">
+        <tr class='table-head'>
+            <th>{{'type' | translate }}</th>
+            <th>{{'length' | translate }}</th>
+            <th>{{'width' | translate }}</th>
+            <th>{{'draught' | translate }}</th>
+            <th>{{'crew' | translate }}</th>
+            <th>{{'annex' | translate }}</th>
+            <th>{{'foil' | translate }}</th>
+        </tr>
+        <tr *ngFor="let boat of pageOfBoats">
+            <td>{{boat.type}}</td>
+            <td>{{boat.length}}</td>
+            <td>{{boat.width}}</td>
+            <td>{{boat.draught}}</td>
+            <td>{{boat.crew}}</td>
+            <td>{{boat.annex}}</td>
+            <td>{{boat.foil}}</td>
+        </tr>
+    </table>
+    <app-paginate-boat [boats]="boats"
+                       [pageSize]="pageSize"
+                       (changePage)="onChangePage($event)">
+    </app-paginate-boat>
+
+    <div class="radio-container">
+        <p>{{ 'iam' | translate }}</p>
+        <app-radio-box [selectedType]="searchGroup.get('individuType').value" 
+                   [type]="'individual'" 
+                   (enableRadio)="setSelectedRadio($event)"></app-radio-box>
+
+        <app-radio-box [selectedType]="searchGroup.get('individuType').value" 
+                   [type]="'professional'" 
+                   (enableRadio)="setSelectedRadio($event)"></app-radio-box>
+    </div>
+
+    <app-button [text]="'start'" (click)="goToType()" class='start-button'></app-button>
+</div>
+
+<img alt="sea-boat" src="../../../assets/images/beach.jpg" class="img-main" #imgMain>

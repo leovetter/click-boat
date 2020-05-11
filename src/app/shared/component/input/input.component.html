@@ -1,0 +1,4 @@
+<div>
+    <label [for]="setting">{{ setting | translate}}</label>
+    <input type="number" [id]="setting" [name]="setting" (change)="onChange()" [(ngModel)]="number">
+</div>

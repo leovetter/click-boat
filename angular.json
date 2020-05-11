@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "clickboat"
+    }
+  },
+  "defaultProject": "clickboat",
+  "cli": {
+    "analytics": false
+  }
 }

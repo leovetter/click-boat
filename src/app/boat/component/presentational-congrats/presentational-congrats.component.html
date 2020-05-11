@@ -1,0 +1,38 @@
+<div class="content">
+
+    <p class="step">{{ 'step3' | translate }}</p>
+    <p class="your-summary">{{ 'summary' | translate }}</p>
+
+    <dl>
+        <dt>{{'boatType' | translate}}</dt>
+        <dd>{{ boat?.type | translate }}</dd>
+    </dl>
+    <dl *ngIf="boat.length">
+        <dt>{{'length' | translate}}</dt>
+        <dd>{{ boat?.length | translate }}</dd>
+    </dl>
+    <dl *ngIf="boat.width">
+        <dt>{{'width' | translate}}</dt>
+        <dd>{{ boat?.width | translate }}</dd>
+    </dl>
+    <dl *ngIf="boat.draught">
+        <dt>{{'draught' | translate}}</dt>
+        <dd>{{ boat?.draught | translate }}</dd>
+    </dl>
+    <dl *ngIf="boat.crew === true || boat.crew === false">
+        <dt>{{'crew' | translate}}</dt>
+        <dd>{{ boat?.crew | translate }}</dd>
+    </dl>
+    <dl *ngIf="boat.annex === true || boat.annex === false">
+        <dt>{{'annex' | translate}}</dt>
+        <dd>{{ boat?.annex | translate }}</dd>
+    </dl>
+    <dl *ngIf="boat.foil === true || boat.foil === false">
+        <dt>{{'foil' | translate}}</dt>
+        <dd>{{ boat?.foil | translate }}</dd>
+    </dl>
+
+    <app-button [text]="'validate'" (click)="validateBoat()" class='validate-button'></app-button>
+</div>
+
+<img alt="sea-boat" src="../../../assets/images/beautiful-boat.jpg" class="img-congrats" #imgCongrat>

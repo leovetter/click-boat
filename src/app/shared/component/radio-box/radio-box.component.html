@@ -1,0 +1,5 @@
+<div class='radio-box' [class.enabled]="selectedType === type">
+    <span></span>
+    <input type="radio" [id]="type" name="boatType" [value]="type" (click)="activateRadio()">
+    <label [for]="type">{{ type | translate }}</label>
+</div>

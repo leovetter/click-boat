@@ -1,0 +1,42 @@
+.content {
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    display: inline-block;
+    vertical-align: top;
+    p {
+        margin: 0;
+    }
+    .location {
+        font-size: smaller;
+    }
+    .clickboat {
+        font-weight: bold;
+        font-size: larger;
+        margin-bottom: 5%;
+    }
+    .boats-table {
+        width: 100%;
+        margin-top: 5%;
+        .table-head {
+            background-color: #1b1e23;
+            color: white;
+        }
+        tr:nth-child(odd):not(.table-head) {
+            background-color: #ebebeb;
+            color: black;
+        }
+        tr:nth-child(even) {
+            background-color: white;
+            color: black;
+        }
+    }
+    .start-button {
+        float: right;
+    }
+}
+.img-main {
+    width: 50%;
+    height: 100%;
+}

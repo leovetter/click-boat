@@ -1,0 +1,33 @@
+
+.content {
+    width: 30%;
+    // height: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    display: inline-block;
+    vertical-align: top;
+    p {
+        margin: 0;
+    }
+    .step {
+        font-size: smaller;
+    }
+    .your-boat {
+        font-weight: bold;
+        font-size: larger;
+    }
+    .radio-container {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .next-button {
+        float: right;
+        margin-right: 13%;
+    }
+}
+.img-type {
+    width: 50%;
+    height: 100%;
+}
+

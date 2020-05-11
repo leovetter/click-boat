@@ -1,0 +1,31 @@
+<div class="content" [formGroup]="boatGroup">
+
+    <p class="step">{{ 'step2' | translate }}</p>
+    <p class="your-setting">{{ 'yourSetting' | translate }}</p>
+
+    <app-input [setting]="'length'" (setInput)="setLength($event)"></app-input>
+
+    <app-input [setting]="'width'" (setInput)="setWidth($event)"></app-input>
+
+    <app-input [setting]="'draught'" (setInput)="setDraught($event)"></app-input>
+
+    <div class="checkbox-container">
+        <app-checkbox [selected]="boatGroup.get('crew').value" 
+                      [type]="'crew'" 
+                      (enableCheckBox)="setCheckBox($event)"></app-checkbox>
+
+        <app-checkbox [selected]="boatGroup.get('annex').value" 
+                      [type]="'annex'" 
+                      (enableCheckBox)="setCheckBox($event)"></app-checkbox>
+
+        <app-checkbox [selected]="boatGroup.get('foil').value" 
+                      [type]="'foil'" 
+                      (enableCheckBox)="setCheckBox($event)"
+                      *ngIf="sailing"></app-checkbox>
+    </div>
+
+    <app-button [text]="'validate'" (click)="updateBoat()" class='validate-button'></app-button>
+
+</div>
+
+<img alt="sea-boat" src="../../../assets/images/main-sea-boat.jpg" class="img-boat" #imgBoat>

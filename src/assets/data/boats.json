@@ -1,0 +1,243 @@
+[
+    {
+        "type": "Catamaran",
+        "length": "10",
+        "width": "5",
+        "draught": "2.5",
+        "crew": "true",
+        "annex": "false"
+    },
+    {
+        "type": "Catamaran",
+        "length": "12",
+        "width": "4",
+        "draught": "1.5",
+        "crew": "false",
+        "annex": "false"
+    },
+    {
+        "type": "Catamaran",
+        "length": "1",
+        "width": "5",
+        "draught": "2.5",
+        "crew": "true",
+        "annex": "false"
+    },
+    {
+        "type": "Catamaran",
+        "length": "13",
+        "width": "5",
+        "draught": "3.5",
+        "crew": "true",
+        "annex": "true"
+    },
+    {
+        "type": "Catamaran",
+        "length": "10",
+        "width": "8",
+        "draught": "5.5",
+        "crew": "false",
+        "annex": "true"
+    },
+    {
+        "type": "Catamaran",
+        "length": "6",
+        "width": "2",
+        "draught": "0.5",
+        "crew": "true",
+        "annex": "false"
+    },
+    {
+        "type": "Catamaran",
+        "length": "18",
+        "width": "9",
+        "draught": "4.5",
+        "crew": "true",
+        "annex": "true"
+    },
+    {
+        "type": "Catamaran",
+        "length": "17",
+        "width": "6",
+        "draught": "2.5",
+        "crew": "false",
+        "annex": "true"
+    },
+    {
+        "type": "Catamaran",
+        "length": "10",
+        "width": "5",
+        "draught": "2.5",
+        "crew": "true",
+        "annex": "false"
+    },
+    {
+        "type": "Catamaran",
+        "length": "11",
+        "width": "4",
+        "draught": "2.5",
+        "crew": "false",
+        "annex": "false"
+    },
+    {
+        "type": "Catamaran",
+        "length": "10",
+        "width": "5",
+        "draught": "2.5",
+        "crew": "true",
+        "annex": "false"
+    },
+    {
+        "type": "Sailing ship",
+        "length": "10",
+        "width": "5",
+        "foil": "true",
+        "crew": "true",
+        "annex": "false"
+    },
+    {
+        "type": "Sailing ship",
+        "length": "12",
+        "width": "8",
+        "foil": "false",
+        "crew": "true",
+        "annex": "false"
+    },
+    {
+        "type": "Sailing ship",
+        "length": "9",
+        "width": "4",
+        "foil": "false",
+        "crew": "true",
+        "annex": "true"
+    },
+    {
+        "type": "Sailing ship",
+        "length": "18",
+        "width": "9",
+        "foil": "true",
+        "crew": "true",
+        "annex": "true"
+    },
+    {
+        "type": "Sailing ship",
+        "length": "10",
+        "width": "5",
+        "foil": "true",
+        "crew": "false",
+        "annex": "false"
+    },
+    {
+        "type": "Sailing ship",
+        "length": "9",
+        "width": "4",
+        "foil": "false",
+        "crew": "false",
+        "annex": "false"
+    },
+    {
+        "type": "Sailing ship",
+        "length": "25",
+        "width": "7",
+        "foil": "false",
+        "crew": "true",
+        "annex": "true"
+    },
+    {
+        "type": "Sailing ship",
+        "length": "12",
+        "width": "5",
+        "foil": "true",
+        "crew": "true",
+        "annex": "false"
+    },
+    {
+        "type": "Sailing ship",
+        "length": "13",
+        "width": "5",
+        "foil": "true",
+        "crew": "false",
+        "annex": "false"
+    },
+    {
+        "type": "Motor boat"
+    },
+    {
+        "type": "Motor boat"
+    },
+    {
+        "type": "Motor boat"
+    },
+    {
+        "type": "Motor boat"
+    },
+    {
+        "type": "Motor boat"
+    },
+    {
+        "type": "Semi-rigid"
+    },
+    {
+        "type": "Semi-rigid"
+    },
+    {
+        "type": "Semi-rigid"
+    },
+    {
+        "type": "Barge"
+    },
+    {
+        "type": "Barge"
+    },
+    {
+        "type": "Barge"
+    },
+    {
+        "type": "Barge"
+    },
+    {
+        "type": "Barge"
+    },
+    {
+        "type": "Barge"
+    },
+    {
+        "type": "Jet-Ski"
+    },
+    {
+        "type": "Jet-Ski"
+    },
+    {
+        "type": "Jet-Ski"
+    },
+    {
+        "type": "Jet-Ski"
+    },
+    {
+        "type": "Jet-Ski"
+    },
+    {
+        "type": "Jet-Ski"
+    },
+    {
+        "type": "Yacht"
+    },
+    {
+        "type": "Yacht"
+    },
+    {
+        "type": "Yacht"
+    },
+    {
+        "type": "Yacht"
+    },
+    {
+        "type": "Yacht"
+    },
+    {
+        "type": "Yacht"
+    },
+    {
+        "type": "Yacht"
+    }
+]

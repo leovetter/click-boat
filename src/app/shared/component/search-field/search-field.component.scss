@@ -1,0 +1,23 @@
+input {
+    display: block;
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 1px solid #4a9ff4;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}

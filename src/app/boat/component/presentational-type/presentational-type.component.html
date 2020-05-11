@@ -1,0 +1,40 @@
+<div class="content" [formGroup]="typeGroup">
+    
+    <p class="step">{{ 'step1' | translate }}</p>
+    <p class="your-boat">{{ 'yourBoat' | translate }}</p>
+
+    <div class="radio-container">
+        
+        <app-radio-box [selectedType]="typeGroup.get('boatType').value" 
+                       [type]="'sailing'" 
+                       (enableRadio)="setSelectedRadio($event)"></app-radio-box> 
+
+        <app-radio-box [selectedType]="typeGroup.get('boatType').value" 
+                       [type]="'catamaran'"
+                       (enableRadio)="setSelectedRadio($event)"></app-radio-box> 
+
+        <app-radio-box [selectedType]="typeGroup.get('boatType').value" 
+                       [type]="'motor'"
+                       (enableRadio)="setSelectedRadio($event)"></app-radio-box> 
+
+        <app-radio-box [selectedType]="typeGroup.get('boatType').value" 
+                       [type]="'rigid'"
+                       (enableRadio)="setSelectedRadio($event)"></app-radio-box> 
+
+        <app-radio-box [selectedType]="typeGroup.get('boatType').value" 
+                       [type]="'barge'"
+                       (enableRadio)="setSelectedRadio($event)"></app-radio-box> 
+
+        <app-radio-box [selectedType]="typeGroup.get('boatType').value" 
+                       [type]="'jetSki'"
+                       (enableRadio)="setSelectedRadio($event)"></app-radio-box> 
+
+        <app-radio-box [selectedType]="typeGroup.get('boatType').value" 
+                       [type]="'yacht'"
+                       (enableRadio)="setSelectedRadio($event)"></app-radio-box> 
+    </div>
+
+    <app-button [text]="'next'" (click)="goToNextPage()" class='next-button'></app-button>
+</div>
+
+<img alt="marina" src="../../../assets/images/marina.png" class="img-type" #imgType>

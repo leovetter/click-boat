@@ -1,0 +1,38 @@
+.checkbox {
+    position: relative;
+    border: 1px solid #e6e6e6;
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    input {
+        position: absolute;
+        cursor: pointer;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        height: 95%;
+        width: 95%;
+    }
+    span {
+        display: inline-block;
+        vertical-align: middle;
+        height: 15px;
+        width: 15px;
+        border: 1px solid #e6e6e6;
+        margin-right: 5px;
+    }
+    label {
+        vertical-align: middle;
+    }
+}
+
+.enabled {
+    color: #4a9ff4;
+    span {
+        border: 1px solid #4a9ff4 !important;
+    }
+}
